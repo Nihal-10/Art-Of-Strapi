@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_product_table_rows",
+  "info": {
+    "displayName": "tableRow"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "dateOfPublish": {
+      "type": "date",
+      "required": true
+    },
+    "pdf": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

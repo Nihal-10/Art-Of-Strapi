@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_meta_seos",
+  "info": {
+    "displayName": "seo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "desciption": {
+      "type": "text",
+      "required": true
+    },
+    "ogImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "keywords": {
+      "type": "text"
+    },
+    "metaRobots": {
+      "type": "string"
+    },
+    "structuredData": {
+      "type": "json"
+    },
+    "viewPort": {
+      "type": "string"
+    },
+    "canonicalURL": {
+      "type": "string"
+    }
+  }
+}

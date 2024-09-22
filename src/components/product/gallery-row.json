@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_product_gallery_rows",
+  "info": {
+    "displayName": "galleryRow"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

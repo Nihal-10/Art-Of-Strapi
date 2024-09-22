@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_product_tables",
+  "info": {
+    "displayName": "table"
+  },
+  "options": {},
+  "attributes": {
+    "row": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.table-row",
+      "required": true
+    }
+  }
+}

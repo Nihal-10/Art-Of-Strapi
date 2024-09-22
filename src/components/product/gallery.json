@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_product_galleries",
+  "info": {
+    "displayName": "gallery"
+  },
+  "options": {},
+  "attributes": {
+    "row": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.gallery-row"
+    }
+  }
+}
